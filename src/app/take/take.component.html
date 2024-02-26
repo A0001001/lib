@@ -1,0 +1,10 @@
+<!-- take.component.html -->
+<div>
+    <h2>Take a Book</h2>
+    <label>Select Book:</label>
+    <select [(ngModel)]="selectedBook">
+        <option *ngFor="let book of availableBooks" [value]="book">{{ book }}</option>
+    </select>
+    <br>
+    <button (click)="takeBook()">Take Book</button>
+</div>

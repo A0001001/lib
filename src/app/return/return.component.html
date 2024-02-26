@@ -1,0 +1,10 @@
+<!-- return.component.html -->
+<div>
+    <h2>Return a Book</h2>
+    <label>Select Book:</label>
+    <select [(ngModel)]="selectedBook">
+        <option *ngFor="let book of borrowedBooks" [value]="book">{{ book }}</option>
+    </select>
+    <br>
+    <button (click)="returnBook()">Return Book</button>
+</div>

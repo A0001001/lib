@@ -1,0 +1,29 @@
+/* books.component.css */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #3fd5c4, #4e3ec7, #3c8abf, #5c4bdb);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: #ecf0f1;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 15px 0;
+}
